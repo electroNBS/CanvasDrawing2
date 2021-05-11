@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script src="libraries/p5.js"></script>
+    <script src="libraries/p5.dom.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="libraries/matter.js"></script>
+    <script src="libraries/p5.play.js"></script>
+    <script src="Form.js"></script>
+    <script src="Data.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/firebasejs/3.6.3/firebase.js"></script>
+    <script language="javascript" type="text/javascript" src="sketch.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="head-div">
+        <img src="./assets/img/my logo.png" alt="logo" width="200" height="120" style="display: block;
+         align-self: flex-start; margin-left: 0%;">
+
+        <div style="margin-top: 0%;">
+            <h1 class="h1" contenteditable="false">𝓒𝓪𝓷𝓿𝓪𝓼 𝓭𝓻𝓪𝔀𝓲𝓷𝓰</h1>
+            <h5>
+                <p>&copy;
+                    <script>document.write(new Date().getFullYear())</script>
+                    electroNBS. All Rights Reserved.
+                </p>
+            </h5>
+        </div>
+
+        <h3>Get, Set, Draw!</h3>
+    </div>
+    <h2 style="text-align: center;">Don't forget to click save!</h2>
+    <p style="display: flex;
+  justify-content: center;
+  align-items: center;">
+        <button id="saveButton">save</button>
+        <button id="clearButton">clear</button>
+    </p>
+    <div id="canvascontainer"></div>
+
+
+    <text>Here are some drawings. Click on "view" to view and edit.</text>
+    <p>
+    <ol id="drawinglist">
+
+    </ol>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+html,
+body {
+  margin: 10;
+  padding: 0;
+  background-color: salmon;
+}
+canvas {
+  display: block;
+  display: block;
+  border: 10px solid rgb(0, 255, 13);
+  margin-right: auto;
+  margin-left: auto;
+}
+h1 {
+  color: rgb(6, 132, 155);
+  text-align: center;
+}
+head-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h5 {
+  text-align: center;
+  margin: auto;
+  vertical-align: bottom;
+}
+h3 {
+  text-align: center;
+  margin: auto;
+  vertical-align: bottom;
+}
+img {
+  margin-left: 200;
+}
